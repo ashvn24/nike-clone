@@ -1,0 +1,322 @@
+*{
+    font-family: sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 26% 45% 25%;
+}
+.l-menu{
+   width: 99%;
+   border-right: 1px solid #e8e8e8;
+   height: 100vh;
+   position: sticky; 
+   top: 20px;
+}
+.menu-item{
+    width: 75%;
+    margin: 0 auto;
+}
+.logo{
+    padding: 4% 0 10% 12%;
+
+}
+.logo i{
+    font-size: 30px;
+}
+.options{
+    display: grid;
+}
+.options div a{
+    text-decoration: none;
+    width: 65px;
+    height: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 10px;
+    color: rgba(0, 0, 0, 0.658);
+    border-radius: 30px;
+}
+.options div{
+    padding: 2% 0 10% 10%;
+}
+.options div a i{
+    padding: 0 10% 0 0;
+}
+.options .home{
+  color: #1da1f2;
+}
+.btn{
+    width: 65%;
+    height: 48px;
+    background: rgb(29, 155, 240);
+    margin-left: 30px;
+    border: 0px;
+    border-radius: 30px;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+}
+.btn:hover{
+  background-color: #227eb8;
+}
+.options div a:hover{
+    background: rgba(187, 190, 192, 0.151);
+}
+.content-menu{
+    width: 99%;
+    border-right: 1px solid #e8e8e8;
+    background: white;
+}
+.form-group-1 {
+    display: flex;
+    flex-flow: row;
+    padding: 5px 5px;
+  }
+  .post-tweet{
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+  }
+  .post-tweet img {
+    /* display: inline-block; */
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center; 
+  }
+  
+  .post-tweet input {
+    width: 90%;
+    height: 60px;
+    padding: 5px 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .post-tweet input::placeholder {
+    color: rgba(123, 124, 126, 0.719);
+  }
+  /* .post-tweet input:focus {
+    outline: none;
+  } */
+  .form-group-2 {
+    display: flex;
+    /* flex-flow: row; */
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:10px;
+  }
+  
+  .post-icons {
+    padding-left:110px;
+    color: #1da1f2;
+  }
+  .post-icons i {
+    padding-right: 10px;
+    font-size: 1.4rem;
+  }
+  .post-icons i:hover {
+    color: #1da0f2c2;
+    cursor: pointer;
+  }
+  .form-group-2 .btn1 {
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.7rem 1rem;
+    background: #8ed0f9;
+    color: #fff;
+    border-radius: 25px;
+    margin-right: 1rem;
+  }
+  .form-group-2 .btn1:hover {
+    background: #1da1f2;
+    cursor: pointer;
+    
+  }
+  
+  /* .btn1:focus {
+    outline: none;
+  } */
+
+/* post starts here-------------------------------------- */
+
+
+
+  .tweets img {
+    display: block;
+    width: 100%;
+  }
+  .tweets .user-pics img {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0.5rem 1rem;
+  }
+  .tweets {
+    display: flex;
+    /* flex-flow: row; */
+    justify-content: center;
+    font-size: 15px;
+    width: 100%;
+    line-height: 1.75re;
+    padding-top: 0.5rem;
+    border-bottom: 1px solid rgb(230, 236, 240);
+  }
+  .user-content img {
+    border-radius: 20px;  
+    transform: translateY(-40px);
+  }
+  .user-content {
+    font-family: "Roboto";
+    padding-right: 1rem;
+    color: rgb(48, 52, 56);
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .user-content p {
+    transform: translateY(-50px);
+  }
+  
+  .user-content-box {
+    display: flex;
+    flex-flow: column nowrap;
+    color: rgb(20, 23, 26);
+  }
+  .user-content-box .user-names {
+    display: flex;
+    /* flex-flow: row nowrap; */
+  }
+  .user-names .full-name {
+    padding-right: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(20, 23, 26);
+  }
+  .user-names .user-name {
+    padding-right: 10px;
+    font-size: 1.05rem;
+    font-weight: 400;
+    color: rgb(101, 119, 134);
+    transform: translateY(-17px);
+  }
+  .time {
+    color: rgb(101, 119, 134);
+    transform: translateY(-16px);
+
+  }
+  .content-icons {
+    display: flex;
+    /* flex-flow: row nowrap; */
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    padding: 0 40px 10px 0;
+  }
+  
+  .content-icons i {
+    color: rgb(101, 119, 134);
+    font-size: 15px;
+    cursor: pointer;
+    
+  }
+
+
+  /* ----------------------------------------------------------------------------------------- */
+  .right-section{
+    position: sticky;
+    top: 0px;
+  }
+
+  .search-box input {
+    padding: 15px 30px 15px 15px;
+    border-radius: 25px;
+    /* outline: none; */
+    border: none;
+    font-size: 15px;
+    background: rgb(230, 236, 240);
+  }
+  .search-box i {
+    color: rgb(101, 119, 134);
+    font-size: 15px;
+  }
+  .search-box {
+    border: none;
+    border-radius: 25px;
+    padding:1px 10px;
+    background: rgb(230, 236, 240);
+    margin-top: 15px;
+    /* white-space: nowrap; */
+  }
+  /* .search-r{
+    position: fixed;
+  }
+   */
+   .trends {
+    background: rgb(245, 248, 250);
+    /* display: flex; */
+    /* flex-flow: column nowrap; */
+    width: 80%;
+    border-radius: 15px;
+    margin-top: 1rem;
+  }
+  .trends .header {
+    display: flex;
+    /* flex-flow: row nowrap; */
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid rgb(230, 236, 240);
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid rgb(230, 236, 240);
+  }
+  .header i {
+    color: rgba(29,161,242,1.00);
+    background: rgb(245, 248, 250);
+    padding: 0.5rem;
+    border-radius: 50%
+  }
+  .header i:hover {
+    background: rgba(29, 161, 242, 0.1);
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+   .nav-list {
+    list-style: none;
+    /* display: flex; */
+    /* flex-flow: row nowrap; */
+    /* justify-content: space-between; */
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid rgb(230, 236, 240);
+  }
+  .nav-list:hover {
+    background: rgba(0, 0, 0, 0.03);
+    cursor: pointer;
+  }
+  .nav-list a {
+    color: rgb(27, 149, 224);
+    text-decoration: none;
+}
+/* .trend-list {
+  display: flex;
+  flex-flow: column nowrap;
+  
+} */
+
+
+.main-text {
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(20, 23, 26);
+}
+
+.sub-text {
+  font-size: 13px;
+  color: rgb(101, 119, 134);
+}
+
+.nav-list .trend-icon {
+  font-size: 13px;
+  color:  rgb(101, 119, 134);
+}
